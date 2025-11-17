@@ -1,6 +1,10 @@
 {
-    "name": "Codespace mit Copilot",
+    "name": "Codespace mit Copilot + Python",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.11",
     "extensions": [
-      "GitHub.copilot"
-    ]
-  }
+        "GitHub.copilot",
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "postStartCommand": "python3 -m pip install --upgrade pip && python3 -m pip install -r requirements.txt || true"
+}

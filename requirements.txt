@@ -1,0 +1,6 @@
+# Fügt hier eure Python-Abhängigkeiten ein, z.B.:
+# gpxpy==1.5.0
+# numpy==1.26.0
+# debugpy==1.6.7
+#
+# Datei kann leer sein — nichts installiert sich dann.
